@@ -1,0 +1,29 @@
+{
+    "nft_name": "TestNFT0",
+    "description": "An NFT test",
+    "collection": "caparezza",
+    "properties": [
+        {
+            "type": "Name",
+            "name": "Chipina"
+        },
+        {
+            "type": "Gender",
+            "name": "Female"
+        }
+    ],
+    "levels": [
+        {
+            "name": "Vision",
+            "from": 10,
+            "to": 10
+        }
+    ],
+    "stats": [
+        {
+            "name": "Age",
+            "from": 57,
+            "to": 100
+        }
+    ]
+}

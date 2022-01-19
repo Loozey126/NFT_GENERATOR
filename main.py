@@ -1,6 +1,5 @@
 import random
 import shutil
-from tkinter import N
 import imageio
 import os
 import glob
@@ -45,7 +44,7 @@ def createMetadata():
 }
     with open(str(i) + ".json", "w") as outfile:
         json.dump(metadata, outfile,indent=4)
-    shutil.move(str(i) + ".json",r'C:\Users\m.luzi\Desktop\Personale\Programmazione\NFT_Generator\gif\NFT_Generator\OUTPUT\METADATA')
+    shutil.move(str(i) + ".json",r'.\OUTPUT\METADATA')
 def moveImg(src, dest):
     shutil.copy(src, dest)
 def clearImg(dest):
@@ -64,7 +63,7 @@ def createImg(gifDest,format):
         imgGIF.append(imageio.imread(buffer +'\\' + imgName))
     imageio.mimsave(gifDest + GIF_NAME_DIFF, imgGIF, duration=DURATION_FRAME)
 
-ciclo = input('[1] Create PNG From Layers\n [2] Create GIF From PNG\n\n Choose an option (1/2)\n')
+ciclo = input('[1] Create PNG From Layers\n[2] Create GIF From PNG\n\n Choose an option (1/2)\n')
 
 if ciclo == '1':
     nPNG = input('How Many IMG do you need?\n')
@@ -78,6 +77,7 @@ if ciclo == '1':
         imgSrc = config["source"]
         answer = int(input('Hello, how many GIF do you need?\n'))
         numGif = range(answer)
+        nPNG = int(nPNG) - 1
         DURATION_FRAME = input('Set frame duration time\n')
         for i in numGif:
             GIF_NAME_DIFF = "img" + str(i) + '.gif'
@@ -90,7 +90,7 @@ if ciclo == '1':
                 moveImg(src, buffer)
             createImg(gifDest, '.png')
             createMetadata()
-            print('Done')
+            print(GIF_NAME_DIFF +' Print Done')
 
 elif ciclo == '2':
     with open("config.json", "r") as configFile:
@@ -100,16 +100,17 @@ elif ciclo == '2':
     imgSrc = config["source"]
     answer = int(input('Hello, how many GIF do you need?\n'))
     numGif = range(answer)
+    nPNG  = len(glob.glob1(r'.\INPUT',"*.pdf"))
     DURATION_FRAME = input('Set frame duration time\n')
     for i in numGif:
         GIF_NAME_DIFF = "img" + str(i) + '.gif'
         clearImg(buffer)
         nFrame = range(random.randint(5,11))
         for frames in nFrame: 
-            ran = str(random.randint(0,))
+            ran = str(random.randint(0,nPNG))
             src = imgSrc + '\\' + ran + '.png'
             moveImg(src, buffer)
         createImg(gifDest, '.png')
         createMetadata()
-        print('Done')
+        print(GIF_NAME_DIFF +' Print Done')
 else: print('ERROR: Unknow Response')

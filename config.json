@@ -1,6 +1,6 @@
 {
-    "destination" :"C:\\Users\\m.luzi\\Desktop\\Personale\\Programmazione\\NFT_Generator\\gif\\NFT_Generator\\OUTPUT\\",
-    "source" : "C:\\Users\\m.luzi\\Desktop\\Personale\\Programmazione\\NFT_Generator\\gif\\NFT_Generator\\INPUT",
+    "destination" :"C:\\Users\\m.luzi\\Documents\\GitHub\\NFT_Generator\\OUTPUT\\",
+    "source" : "C:\\Users\\m.luzi\\Documents\\GitHub\\NFT_Generator\\INPUT",
     "imgUrl" : "https://gateway.pinata.cloud/ipfs/QmfZLfAvgKMu36PAZVkuQKUwtqYEjSvisb44ZtwXABdUtr",
     "nft-name" : "TestNFT",
     "nft-description" : "An NFT test",
