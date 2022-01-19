@@ -55,7 +55,6 @@ The final PNG image will be stored in the "INPUT" folder of the project
 The final GIF image will be stored in the "OUTPUT" folder of the project
 
 
-## IMPORTANT, DO NOT RENAME OR MOVE THE FOLDER
 ## 🚀 About Me
 A software developer for industrial automation in Italy
 loozey126
@@ -83,4 +82,11 @@ Photoshop, ladder, PLC, KUP/FUP, mySQL, Python, Arduino
 ## Support
 
 For support, email icedrift99@gmail.com or telegram  @loozey126
+
+
+## Related
+
+The example file are from my LSD_Ap3z NFT Collection, check it here
+
+[LSD_Ap3z NFT Collection](https://opensea.io/collection/lsd-ap3z)
 
