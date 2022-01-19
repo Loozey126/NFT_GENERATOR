@@ -1,0 +1,10 @@
+{
+    "destination" :"C:\\Users\\m.luzi\\Desktop\\Personale\\Programmazione\\NFT_Generator\\gif\\NFT_Generator\\OUTPUT\\",
+    "source" : "C:\\Users\\m.luzi\\Desktop\\Personale\\Programmazione\\NFT_Generator\\gif\\NFT_Generator\\INPUT",
+    "imgUrl" : "https://gateway.pinata.cloud/ipfs/QmfZLfAvgKMu36PAZVkuQKUwtqYEjSvisb44ZtwXABdUtr",
+    "nft-name" : "TestNFT",
+    "nft-description" : "An NFT test",
+    "collection-name" : "caparezza",
+    "name-list" : ["Chita"," Chacha","Kiki","Mike","Coco","Edurado","Robertos","Erika","Chipina","Martin","Camila","Vika","Olvia","Michela","Manuel","Ciro","Danielino","Vincenzino","Salvatore","Patri","Imma"],
+    "gender-list" : ["Male","Female","Banana","Non-Binary","Train","Miguel"]
+}
